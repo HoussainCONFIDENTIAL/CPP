@@ -15,11 +15,11 @@ Computer project aimed at generating a marine background image from geographical
 4. [Additional information](#additional-information)
 
 ## Instructions
-- Open the main folder and run the build.sh file which generates the documentation and the executable file create_raster
-- In the ./files/ folder, copy the text file containing the geographical coordinates
-- Go to a terminal in the ./build/ folder, and type: ./create_raster ../files/<filename.txt> <number of pixels> 
+- Open the main folder and run the build.sh file (using ./build.sh) which generates the documentation and the executable file  create_raster
+- Move Guerledan_Feb19_50cm_wgs84.txt to the  ./files/ folder
+- Go to a terminal in the ./build/ folder (using cd ./build/), and type: ./create_raster ../files/Guerledan_Feb19_50cm_wgs84.txt <number of pixels> 
 - The created image will be found in the ./images/ folder
-
+  
 Summary diagram
 
    graph TD;
